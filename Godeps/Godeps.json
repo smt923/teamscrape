@@ -1,0 +1,22 @@
+{
+	"ImportPath": "github.com/smt923/teamscrape",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Packages": [
+		"."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/yhat/scrape",
+			"Rev": "53e4de4d80edac458f4761a5eca90ea9b6272971"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "6a513affb38dc9788b449d59ffed099b8de18fa0"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html/atom",
+			"Rev": "6a513affb38dc9788b449d59ffed099b8de18fa0"
+		}
+	]
+}
