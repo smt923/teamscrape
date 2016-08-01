@@ -3,7 +3,6 @@ Package teamscrape scrapes and pulls information from a Twitch.tv team page and 
 
 The main information is slow due to multiple api calls, however the simple function
 uses pure scrpaing and should be very fast even for large teams
-
 */
 package teamscrape
 

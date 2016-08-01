@@ -10,7 +10,7 @@ type TwitchTeam struct {
 	Members     []Member `json:"members"`
 }
 
-// Member represents a member
+// Member represents a member of a twitch team
 type Member struct {
 	Username string `json:"username"`
 	Logo     string `json:"logo"`
