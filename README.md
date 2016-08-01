@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/smt923/teamscrape.svg?branch=master)](https://travis-ci.org/smt923/teamscrape)
+
 # teamscrape
 Scrape information from twitch.tv teams
 
