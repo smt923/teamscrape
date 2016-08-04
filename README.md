@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/smt923/teamscrape.svg?branch=master)](https://travis-ci.org/smt923/teamscrape)
+
 # teamscrape
 Scrape information from twitch.tv teams
 
@@ -6,7 +8,9 @@ go get -u github.com/smt923/teamscrape
 
 import "github.com/smt923/teamscrape"
 
-# Instruction
+# Instructions
+
+twitch client ID is stored in the environment variable "TWITCH_CLIENT_ID", I don't think it's needed for any of the api calls (defintely not needed for the main scraping function) but if the api calls fail you can get a key from [here]( https://www.twitch.tv/settings/connections) and then set the environment variable
 
 ### ScrapeTwitchTeam
 ```go
